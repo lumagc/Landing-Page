@@ -74,6 +74,7 @@ $rosa: lightcoral;
 }
 
 .nav__toggle{
+    margin: 55px 0;
     color:black;
     background: none;
     border: none;
@@ -171,7 +172,7 @@ $rosa: lightcoral;
         
             .li.activo{
                 background-color: $gris;
-                color: white;
+                color: black;
                 /*color: white*/
             }
         }
@@ -295,6 +296,7 @@ $rosa: lightcoral;
     width: fit-content;
     margin: 0 auto;
     padding: 20px 0;
+    color: black;
 
     .authors__list{
         @include flexible( flex, column, wrap, none, none, none);
@@ -783,6 +785,8 @@ $rosa: lightcoral;
         left: 100%;
         transition: left 0.3s;
         border: 2px solid $gris;
+        position: fixed;
+        top: 27%;
     }
 
     .nav__items .items__item {

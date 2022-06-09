@@ -7,7 +7,6 @@ navToggle.addEventListener("click", () =>{
     navMenu.classList.toggle("nav__items_visible");
 });
 
-
 /* ---------------------Tabs--------------------------- */
 const li = document.querySelectorAll('.li');
 const bloque = document.querySelectorAll('.bloque');

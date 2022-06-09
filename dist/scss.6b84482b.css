@@ -68,6 +68,7 @@ body {
 }
 
 .nav__toggle {
+  margin: 55px 0;
   color: black;
   background: none;
   border: none;
@@ -169,7 +170,7 @@ body {
 }
 .main .scenarios .contenedor .ul .li.activo {
   background-color: #b0b0b0;
-  color: white;
+  color: black;
   /*color: white*/
 }
 .main .scenarios .contenedor .subcontenedor {
@@ -289,6 +290,7 @@ body {
   width: fit-content;
   margin: 0 auto;
   padding: 20px 0;
+  color: black;
 }
 .footer .authors .authors__list {
   display: flex;
@@ -669,6 +671,8 @@ body {
     left: 100%;
     transition: left 0.3s;
     border: 2px solid #b0b0b0;
+    position: fixed;
+    top: 27%;
   }
   .nav__items .items__item {
     box-shadow: none;
