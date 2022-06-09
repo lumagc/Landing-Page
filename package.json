@@ -4,8 +4,9 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start": "parcel",
-    "build": "parcel build",
+    "start": "parcel serve -d dist src/index.html",
+    "build": "parcel build src/index.html -d build --public-url /https://lumagc.github.io/Landing-Page/",
+    "deploy": "gh-pages -d build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "serve": "parcel serve src/index.html"
   },
@@ -16,6 +17,10 @@
     "@parcel/transformer-image": "^2.0.0-rc.0",
     "@parcel/transformer-sass": "^2.0.0-rc.0",
     "cssnano": "^4.1.11",
+    "gh-pages": "^4.0.0",
     "parcel": "^2.0.0-rc.0"
+  },
+  "dependencies": {
+    "parcel-bundler": "^1.12.5"
   }
 }

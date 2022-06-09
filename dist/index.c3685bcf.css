@@ -54,7 +54,7 @@ body {
   padding-bottom: 0.3em;
 }
 .nav__items .items__item:hover {
-  border-bottom: 4px solid gray;
+  border-bottom: 4px solid #b0b0b0;
 }
 .nav__item:hover {
   border-bottom: solid;
@@ -71,7 +71,7 @@ body {
 }
 .nav__toggle i {
   height: 37px;
-  background-color: gray;
+  background-color: #b0b0b0;
   padding: 10px;
   border-radius: 22%;
 }
@@ -100,7 +100,7 @@ body {
 .main .presentation .presentation__title {
   font-family: "Bitter", serif;
   text-align: center;
-  background-color: gray;
+  background-color: #b0b0b0;
   padding: 1em;
 }
 .main .presentation .video {
@@ -131,7 +131,7 @@ body {
   font-family: "Bitter", serif;
   text-align: center;
   margin: 3em 0;
-  background-color: gray;
+  background-color: #b0b0b0;
   padding: 1em;
 }
 .main .scenarios .contenedor {
@@ -156,8 +156,9 @@ body {
   cursor: pointer;
 }
 .main .scenarios .contenedor .ul .li.activo {
-  background-color: gray;
+  background-color: #b0b0b0;
   color: white;
+  /*color: white*/
 }
 .main .scenarios .contenedor .subcontenedor {
   height: 40em;
@@ -201,7 +202,7 @@ body {
   font-family: "Bitter", serif;
   text-align: center;
   margin: 3em 0;
-  background-color: gray;
+  background-color: #b0b0b0;
   padding: 1em;
 }
 .main .characters .carrousel {
@@ -251,7 +252,7 @@ body {
   border-radius: 30%;
 }
 .main .characters .carrousel .puntos .punto.activo {
-  background-color: gray;
+  background-color: #b0b0b0;
   cursor: pointer;
 }
 @supports (object-fit: cover) {
@@ -650,14 +651,14 @@ body {
     padding: 20px 0;
     left: 100%;
     transition: left 0.3s;
-    border: 2px solid gray;
+    border: 2px solid #b0b0b0;
   }
   .nav__items .items__item {
     box-shadow: none;
   }
   .nav__items .items__item:hover {
     transition: all ease 0.5s;
-    background-color: gray;
+    background-color: #b0b0b0;
   }
   .nav__toggle {
     display: block;
