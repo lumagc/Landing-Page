@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="scss/index.scss">
+    <script src="https://kit.fontawesome.com/1b56703b94.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <figure class="nav__contentlogo">
+                <img class="nav__logo" src="img/LogoJuego.svg" alt="logo">
+            </figure>
+            <button class="nav__toggle">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <ul id="navs" class="nav__items">
+                <li class="items__item"><a href="#presentation">Presentación</a></li>
+                <li class="items__item"><a href="#characters">Personajes</a></li>
+                <li class="items__item"><a href="#scenarios">Escenarios</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <section id="presentation" class="presentation">
+            <h1 class="presentation__title">Os enseñamos el video de presentación del juego</h1>
+            <video class="video" controls>
+                <source src="assets/video/video-espacio.mp4" type="video/mp4" />
+                <source src="assets/video/video-espacio.webm" type="video/webm" />
+                <source src="assets/video/video-espacio.ogv" type="video/ogg" />
+                <img src="img/LogoJuego.svg" alt="logo" />
+                Su navegador no soporta contenido multimedia.
+            </video>
+            <h1 class="presentation__title">El audio principal del juego sera este</h1>
+            <audio class="audio" autoplay loop controls>
+                <source src="assets/audio/musica-juego.mp3"/>
+            </audio>
+        </section>
+        <section id="scenarios" class="scenarios">
+            <h1 class="scenarios__title">A continuación los distintos escenarios que tendra el juego</h1>
+            <section class="contenedor">
+                <ul class="ul">
+                    <li class="li activo">Escenario 1</li>
+                    <li class="li">Escenario 2</li>
+                    <li class="li">Escenario 3</li>
+                </ul>
+                <div class="subcontenedor">
+                    <div class="bloque activo">
+                       <img src="img/escenarioP.jpg" alt=""/>
+                    </div>
+                    <div class="bloque">
+                       <img src="img/EscenarioL.jpg" alt=""/>
+                    </div>
+                    <div class="bloque">
+                        <img src="img/escenarioB.jpg" alt=""/>
+                    </div>
+                </div>
+            </section> 
+        </section>
+        <section id="characters" class="characters">
+            <h1 class="characters__title">Presentamos nuestros personajes. El mono mecánico llamado EV-0 y su compañero, y su compañero Parranda, un gato también mecánico que lo acompañara en sus aventuras espaciales.</h1>
+            <section class="carrousel">
+                <div class="grande">
+                    <img class="img" src="img/personajeP.svg" alt="">
+                    <img class="img" src="img/personajeB.svg" alt="">
+                </div>
+                <ul class="puntos">
+                    <li class="punto activo">&lt;</li>
+                    <li class="punto">&gt;</li>
+                </ul>
+            </section>
+        </section>
+    </main>
+    <footer class="footer">
+        <section class="authors">
+            El diseño del juego fue creado por:
+            <ul class="authors__list">
+                <li class="list__author">Lucia Mariane Gutiérrez Castro</li>
+                <li class="list__author">Beatriz Conde Cerón</li>
+                <li class="list__author">Jose Pablo Vázquez García</li>
+            </ul>
+        </section>
+    </footer>
+    <script src="script/index.js"></script>
+</body>
+</html>
